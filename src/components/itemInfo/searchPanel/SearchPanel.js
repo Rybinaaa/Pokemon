@@ -10,7 +10,7 @@ class SearchPanel extends Component{
     onSubmit = (e) => {
         e.preventDefault()
         const name = e.target.firstChild.value
-        this.props.onSubmit(name.toLowerCase())
+        this.props.onSubmit(name.toLowerCase().trim())
     }
 
     render() {
