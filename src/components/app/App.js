@@ -20,6 +20,7 @@ state = {
   id: 1,
   description: `Loves to eat`,
   offset: '0',
+  imgShiny:'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png'
 }
 
 cervice = new Cervice
