@@ -1,0 +1,74 @@
+
+
+body{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    height: 100%;
+}
+.App{
+  font-family: 'Source Code Pro', monospace;
+  display: grid;
+  height: 100%;
+  grid-template-rows:70px 100%;
+  letter-spacing: 0.2em;
+}
+
+li {
+    list-style-type: none;
+  }
+  
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+
+  .container{
+    width: calc(100% - 190px);
+    margin: 0 auto;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+button{
+  font: inherit;
+  background-color: inherit;
+  border: none;
+  color: inherit
+}
+
+.btn{
+  display: block;
+  background: #FE8488;
+  color: white;
+  filter: drop-shadow(0 10px 10px #ff384a26);
+  border-radius: 40px;
+  height: 50px;
+  width: 200px;
+}
+
+.btn:disabled{
+  background: #fe848844;
+}
+
+@media (max-width:1140px) {
+  .wrapper{
+    grid-template-columns: 1fr;
+  }
+  
+  main{
+    display: none;
+  }
+  .App{
+    /* grid-template-rows:70px min-content; */
+  }
+  
+}

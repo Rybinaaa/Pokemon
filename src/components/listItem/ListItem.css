@@ -1,0 +1,24 @@
+main {
+    padding-top: 100px;
+    padding-bottom: 9%;
+}
+
+main .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10%;
+    row-gap: 10%;
+    position: relative;
+}
+
+
+main .btn-wrapper{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    top: 120%;  
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+

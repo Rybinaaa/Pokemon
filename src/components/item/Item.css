@@ -1,0 +1,22 @@
+.item{
+    font-size: 13px;
+    /* text-align: center; */
+    filter: drop-shadow(0 8px 24px rgba(129, 135, 189, 0.24));
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    color: #A52528;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.item img{
+    display: block;
+    max-height: 250px;
+    object-fit: contain;
+    margin: 20px;
+}
+
+
